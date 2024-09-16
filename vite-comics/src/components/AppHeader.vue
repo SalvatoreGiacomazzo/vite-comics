@@ -10,9 +10,27 @@ export default {
 
 
 <template>
-
-    <img src="../assets/img/dc-logo.png" alt="comic logo">
-
+    <header>
+        <div class="logo">
+            <img src="../assets/img/dc-logo.png">
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#"></a>Characters</li>
+                    <li><a href="#"></a>Comics</li>
+                    <li><a href="#"></a>Movies</li>
+                    <li><a href="#"></a>TV</li>
+                    <li><a href="#"></a>Games</li>
+                    <li><a href="#"></a>Collectibles</li>
+                    <li><a href="#"></a>Videos</li>
+                    <li><a href="#"></a>Fans</li>
+                    <li><a href="#"></a>News</li>
+                    <li><a href="#"></a>Shop</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 </template>
 
 <style></style>

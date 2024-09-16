@@ -10,7 +10,9 @@ export default {
 
 
 <template>
-
+    <div id="content">
+        <h1>==>Content Goes Here!<== </h1>
+    </div>
 
 </template>
 
