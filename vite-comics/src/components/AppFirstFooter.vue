@@ -10,7 +10,9 @@ export default {
 
 
 <template>
+    <footer id="first-footer">
 
+    </footer>
 
 
 </template>

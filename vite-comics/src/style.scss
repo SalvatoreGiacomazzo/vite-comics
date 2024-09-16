@@ -7,14 +7,14 @@
 
 //HEADER
 header {
-  height: 100px;
+  height: 80px;
   background-color: white;
   margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: space-around;
 
-  header img {
+  img {
     display: block;
     max-height: 90%;
     width: auto;
@@ -26,31 +26,22 @@ header {
   align-items: center;
 }
 
-
 //HEADER NAVBAR
 .navbar {
-
-
   nav ul {
     display: flex;
     list-style: none;
-
-
   }
 
   nav ul li {
     margin: 10px;
   }
-
-
 }
-
-
 
 //CONTENT
 
 #content {
-  height: 200px;
+  height: 100px;
   background-color: black;
   color: white;
   display: flex;
@@ -60,24 +51,63 @@ header {
 
 //ICON STRIPE
 #icons {
-  height: 200px;
+  height: 80px;
   background-color: #0282f9;
   color: white;
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
 
-#icons img {
-  height: 50px;
-  display: block;
+  img {
+    height: 50px;
+    display: block;
+  }
 }
 
 .icon {
   display: flex;
   align-items: center;
+
+  h4 {
+    margin: 10px;
+  }
 }
 
-.icon h4 {
-  margin: 10px;
+//FIRST FOOTER
+#first-footer {
+  height: 400px;
+  background-image: url(./assets/img/footer-bg.jpg);
+}
+
+
+
+
+
+//SECOND FOOTER
+#second-footer {
+  height: 80px;
+  background-color: #2c2c2c;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  button {
+    border-color: #0282f9;
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+  }
+}
+
+#sf-icons {
+  display: flex;
+
+  h2 {
+    color: #0282f9;
+    margin-right: 10px;
+  }
+
+  img {
+    margin-left: 10px;
+  }
 }

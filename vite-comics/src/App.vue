@@ -30,6 +30,10 @@ export default {
 
   <!--Stripe with Icons-->
   <AppIcons />
+  <!--First Footer-->
+  <AppFirstFooter />
+  <!--Second footer-->
+  <AppSecondFooter />
 </template>
 
 <style></style>
