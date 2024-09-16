@@ -77,9 +77,31 @@ header {
 #first-footer {
   height: 400px;
   background-image: url(./assets/img/footer-bg.jpg);
+  display: flex;
+  justify-content: space-around;
+
+  img {
+    height: 100%;
+  }
 }
 
+#ff-info {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
 
+  ul {
+    list-style-type: none;
+  }
+
+  li,
+  a {
+    text-decoration: none;
+    color: grey;
+  }
+}
 
 
 
