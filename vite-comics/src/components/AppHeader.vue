@@ -66,6 +66,14 @@ export default {
             
         ]
         }
+    },
+    methods: {
+        setActiveStatus(id){
+            console.log(id)
+            this.navBarLinks.forEach(navBarItem => {
+           navBarItem.active = (navBarItem.id === id)
+            })
+        }
     }
 }
 </script>
@@ -79,8 +87,8 @@ export default {
         <div class="navbar">
             <nav>
                 <ul>
-                    <li v-for="navBarItem in navBarLinks" :key="navBarItem.id" class="{active : navBarItem.active}">
-                        <a :href="navBarItem.url">
+                    <li v-for="navBarItem in navBarLinks" :key="navBarItem.id" :class="{active : navBarItem.active}">
+                        <a :href="navBarItem.url" @click="setActiveStatus(navBarItem.id)">
                             {{ navBarItem.label }}
                         </a>
                     </li>
@@ -96,4 +104,9 @@ a{
     color:rgb(69, 66, 66);
     text-decoration: none;
 }
+
+li.active a {
+  color: dodgerblue;
+}
+
 </style>
