@@ -69,7 +69,6 @@ export default {
     },
     methods: {
         setActiveStatus(id){
-            console.log(id)
             this.navBarLinks.forEach(navBarItem => {
            navBarItem.active = (navBarItem.id === id)
             })
