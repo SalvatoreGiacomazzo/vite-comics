@@ -5,6 +5,7 @@ import AppSecondFooter from './components/AppSecondFooter.vue'
 import AppContent from './components/AppContent.vue'
 import AppIcons from './components/AppIcons.vue'
 import AppJumbotron from './components/AppJumbotron.vue'
+
 export default {
   components: {
     AppHeader,
@@ -12,7 +13,8 @@ export default {
     AppSecondFooter,
     AppContent,
     AppIcons,
-    AppJumbotron
+    AppJumbotron,
+  
   },
   data() {
     return {
@@ -30,7 +32,6 @@ export default {
 <AppJumbotron />
   <!--Content-->
   <AppContent />
-
   <!--Stripe with Icons-->
   <AppIcons />
   <!--First Footer-->

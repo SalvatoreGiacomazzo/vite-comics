@@ -42,12 +42,21 @@ header {
 //CONTENT
 
 #content {
-  height: 100px;
+  height: auto;
   background-color: black;
   color: white;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  flex: 0 1 calc(100% / 6);
+  text-align: center;
+  border: 1px solid black;
+
 }
 
 //ICON STRIPE

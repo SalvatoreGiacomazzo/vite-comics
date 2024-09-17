@@ -1,19 +1,25 @@
 <script>
+import AppComicList from './AppComicList.vue'
+
+
 export default {
     data() {
         return {
 
         }
+    },
+    components:{
+     AppComicList
     }
 }
 </script>
 
 
 <template>
-    <div id="content">
-        <h1>==>Content Goes Here!<== </h1>
-    </div>
-
+  <AppComicList />
 </template>
 
-<style></style>
+<style scoped lang="scss">
+
+
+</style>
