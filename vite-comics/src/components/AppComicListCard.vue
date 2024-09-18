@@ -4,15 +4,48 @@ export default {
         return {
 
         }
+    },
+  props:{
+    comic: {
+        type: Object,
+        required: true
     }
+      },
+       props:{
+      comicName:{
+      required: true,
+      type: String
+               },
+
+      comicImg: {
+        required: true,
+        type: String
+      }
+
+  }
+
 }
+
 </script>
 
 
 <template>
-<div class="card">Card1</div>
+<div class="card">
+  <img :src="comicImg" alt="">
+  <h3>{{ comicName }}</h3>
 
+</div>
 
 </template>
 
-<style></style>
+<style scoped lang="scss">
+
+
+.card img{
+  max-height:100%;
+  display:block;
+  max-width:100%;
+  
+}
+
+</style>
